@@ -1,2 +1,10 @@
-# O++
-You may find information on O++ in the following link: https://docs.google.com/document/d/1gWvW4QxPnE_HqK8Bnl0vwpDKuTwtGFrES4SCe0XjWsM/edit?usp=sharing
+## Installation
+1. Download and execute `installer.py`
+2. Wait a bit while the program boots
+3. Enter `install`
+4. You now have O++!
+
+```diff
+Welcome to the O++ Installer
+You will now be entering a Command Line Interface in order to install O++
+OPP//: : help```
