@@ -1,0 +1,29 @@
+{
+  "content": "",
+  "embeds": [
+    {
+      "title": "Installer Manifest",
+      "color": 0,
+      "description": "v1.1",
+      "timestamp": "",
+      "author": {},
+      "image": {},
+      "thumbnail": {},
+      "footer": {},
+      "fields": [
+        {
+          "name": "installer.py",
+          "value": "Main installer `.py`"
+        },
+        {
+          "name": "setup.py",
+          "value": "Main installer's EXE config setup file."
+        },
+        {
+          "name": "manifest.json",
+          "value": "Manifest"
+        }
+      ]
+    }
+  ]
+}
