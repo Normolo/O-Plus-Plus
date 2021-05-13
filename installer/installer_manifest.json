@@ -24,7 +24,7 @@
     "url":"https://trello.com/b/M33J83uk/opp-installer-manifest",
     "shortUrl":"https://trello.com/b/M33J83uk",
     "enterpriseOwned":false,
-    "ixUpdate":"63",
+    "ixUpdate":"65",
     "limits":{
         "attachments":{
             "perBoard":{
@@ -144,7 +144,7 @@
     "premiumFeatures":[
         
     ],
-    "dateLastView":"2021-05-13T17:36:36.454Z",
+    "dateLastView":"2021-05-13T19:23:11.190Z",
     "labelNames":{
         "green":".sh",
         "yellow":".json",
@@ -233,6 +233,48 @@
         "canInvite":true
     },
     "actions":[
+        {
+            "id":"609d7c97e47cab20c1a4a083",
+            "idMemberCreator":"5cb6f893cbbf150ce6e1afe1",
+            "data":{
+                "old":{
+                    "closed":false
+                },
+                "list":{
+                    "closed":true,
+                    "id":"609d632e029c9328615d09df",
+                    "name":"Secondary Files"
+                },
+                "board":{
+                    "id":"609d629ab9909d0518ac2b7c",
+                    "name":"OPP installer manifest",
+                    "shortLink":"M33J83uk"
+                }
+            },
+            "type":"updateList",
+            "date":"2021-05-13T19:23:03.308Z",
+            "appCreator":null,
+            "limits":{
+                
+            },
+            "memberCreator":{
+                "id":"5cb6f893cbbf150ce6e1afe1",
+                "username":"cosmobutter",
+                "activityBlocked":false,
+                "avatarHash":"caeab2563ed2a9136cc8008ee50cd5df",
+                "avatarUrl":"https://trello-members.s3.amazonaws.com/5cb6f893cbbf150ce6e1afe1/caeab2563ed2a9136cc8008ee50cd5df",
+                "fullName":"Cosmo",
+                "idMemberReferrer":"577f9b69a043223f763ff5b3",
+                "initials":"C",
+                "nonPublic":{
+                    "fullName":"Normolo",
+                    "initials":"N",
+                    "avatarUrl":"https://trello-members.s3.amazonaws.com/5cb6f893cbbf150ce6e1afe1/caeab2563ed2a9136cc8008ee50cd5df",
+                    "avatarHash":"caeab2563ed2a9136cc8008ee50cd5df"
+                },
+                "nonPublicAvailable":true
+            }
+        },
         {
             "id":"609d634fa31a8265c9b8eab7",
             "idMemberCreator":"5cb6f893cbbf150ce6e1afe1",
@@ -1711,7 +1753,7 @@
         {
             "id":"609d632e029c9328615d09df",
             "name":"Secondary Files",
-            "closed":false,
+            "closed":true,
             "pos":131071,
             "softLimit":null,
             "creationMethod":null,
