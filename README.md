@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/53821637/118322401-59221c80-b4ff-11eb-9991-89e7f927c3af.png)
+
 ## Installation
 1. Download and execute `installer.py`
 2. Wait a bit while the program boots
