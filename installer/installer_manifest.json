@@ -1,6 +1,6 @@
 {
     "id":"609d629ab9909d0518ac2b7c",
-    "name":"OPP installer manifest",
+    "name":"OogaHacks v1.4 manifest",
     "desc":"",
     "descData":null,
     "closed":false,
@@ -10,7 +10,7 @@
     "powerUps":[
         
     ],
-    "dateLastActivity":"2021-05-13T17:36:28.008Z",
+    "dateLastActivity":"2021-05-15T09:06:42.843Z",
     "idTags":[
         
     ],
@@ -21,10 +21,10 @@
     "idEnterprise":null,
     "pinned":false,
     "starred":false,
-    "url":"https://trello.com/b/M33J83uk/opp-installer-manifest",
+    "url":"https://trello.com/b/M33J83uk/oogahacks-v14-manifest",
     "shortUrl":"https://trello.com/b/M33J83uk",
     "enterpriseOwned":false,
-    "ixUpdate":"65",
+    "ixUpdate":"77",
     "limits":{
         "attachments":{
             "perBoard":{
@@ -144,7 +144,7 @@
     "premiumFeatures":[
         
     ],
-    "dateLastView":"2021-05-13T19:23:11.190Z",
+    "dateLastView":"2021-05-15T09:06:59.831Z",
     "labelNames":{
         "green":".sh",
         "yellow":".json",
@@ -233,6 +233,138 @@
         "canInvite":true
     },
     "actions":[
+        {
+            "id":"609f8f22711350387eb79c37",
+            "idMemberCreator":"5cb6f893cbbf150ce6e1afe1",
+            "data":{
+                "old":{
+                    "name":"installer.py"
+                },
+                "card":{
+                    "name":"installer.cxx",
+                    "id":"609d62cdf537c212e5fea03b",
+                    "idShort":1,
+                    "shortLink":"dL8dtZM5"
+                },
+                "board":{
+                    "id":"609d629ab9909d0518ac2b7c",
+                    "name":"OogaHacks v1.4 manifest",
+                    "shortLink":"M33J83uk"
+                },
+                "list":{
+                    "id":"609d62c8fb07af410ac809c6",
+                    "name":"Main Installer Files"
+                }
+            },
+            "type":"updateCard",
+            "date":"2021-05-15T09:06:42.850Z",
+            "appCreator":null,
+            "limits":{
+                
+            },
+            "memberCreator":{
+                "id":"5cb6f893cbbf150ce6e1afe1",
+                "username":"cosmobutter",
+                "activityBlocked":false,
+                "avatarHash":"caeab2563ed2a9136cc8008ee50cd5df",
+                "avatarUrl":"https://trello-members.s3.amazonaws.com/5cb6f893cbbf150ce6e1afe1/caeab2563ed2a9136cc8008ee50cd5df",
+                "fullName":"Cosmo",
+                "idMemberReferrer":"577f9b69a043223f763ff5b3",
+                "initials":"C",
+                "nonPublic":{
+                    "fullName":"Normolo",
+                    "initials":"N",
+                    "avatarUrl":"https://trello-members.s3.amazonaws.com/5cb6f893cbbf150ce6e1afe1/caeab2563ed2a9136cc8008ee50cd5df",
+                    "avatarHash":"caeab2563ed2a9136cc8008ee50cd5df"
+                },
+                "nonPublicAvailable":true
+            }
+        },
+        {
+            "id":"609f8f178c3e572e7ea586ee",
+            "idMemberCreator":"5cb6f893cbbf150ce6e1afe1",
+            "data":{
+                "old":{
+                    "closed":false
+                },
+                "card":{
+                    "closed":true,
+                    "id":"609d62e6588cce3cf229f24a",
+                    "name":"setup.py",
+                    "idShort":4,
+                    "shortLink":"ZtBjv4Lw"
+                },
+                "board":{
+                    "id":"609d629ab9909d0518ac2b7c",
+                    "name":"OogaHacks v1.4 manifest",
+                    "shortLink":"M33J83uk"
+                },
+                "list":{
+                    "id":"609d62c8fb07af410ac809c6",
+                    "name":"Main Installer Files"
+                }
+            },
+            "type":"updateCard",
+            "date":"2021-05-15T09:06:31.134Z",
+            "appCreator":null,
+            "limits":{
+                
+            },
+            "memberCreator":{
+                "id":"5cb6f893cbbf150ce6e1afe1",
+                "username":"cosmobutter",
+                "activityBlocked":false,
+                "avatarHash":"caeab2563ed2a9136cc8008ee50cd5df",
+                "avatarUrl":"https://trello-members.s3.amazonaws.com/5cb6f893cbbf150ce6e1afe1/caeab2563ed2a9136cc8008ee50cd5df",
+                "fullName":"Cosmo",
+                "idMemberReferrer":"577f9b69a043223f763ff5b3",
+                "initials":"C",
+                "nonPublic":{
+                    "fullName":"Normolo",
+                    "initials":"N",
+                    "avatarUrl":"https://trello-members.s3.amazonaws.com/5cb6f893cbbf150ce6e1afe1/caeab2563ed2a9136cc8008ee50cd5df",
+                    "avatarHash":"caeab2563ed2a9136cc8008ee50cd5df"
+                },
+                "nonPublicAvailable":true
+            }
+        },
+        {
+            "id":"609d7ee07904ad83180d7108",
+            "idMemberCreator":"5cb6f893cbbf150ce6e1afe1",
+            "data":{
+                "old":{
+                    "name":"OPP installer manifest"
+                },
+                "board":{
+                    "name":"OogaHacks v1.4 manifest",
+                    "id":"609d629ab9909d0518ac2b7c",
+                    "shortLink":"M33J83uk"
+                }
+            },
+            "type":"updateBoard",
+            "date":"2021-05-13T19:32:48.739Z",
+            "appCreator":null,
+            "limits":{
+                
+            },
+            "memberCreator":{
+                "id":"5cb6f893cbbf150ce6e1afe1",
+                "username":"cosmobutter",
+                "activityBlocked":false,
+                "avatarHash":"caeab2563ed2a9136cc8008ee50cd5df",
+                "avatarUrl":"https://trello-members.s3.amazonaws.com/5cb6f893cbbf150ce6e1afe1/caeab2563ed2a9136cc8008ee50cd5df",
+                "fullName":"Cosmo",
+                "idMemberReferrer":"577f9b69a043223f763ff5b3",
+                "initials":"C",
+                "nonPublic":{
+                    "fullName":"Normolo",
+                    "initials":"N",
+                    "avatarUrl":"https://trello-members.s3.amazonaws.com/5cb6f893cbbf150ce6e1afe1/caeab2563ed2a9136cc8008ee50cd5df",
+                    "avatarHash":"caeab2563ed2a9136cc8008ee50cd5df"
+                },
+                "nonPublicAvailable":true
+            }
+        },
         {
             "id":"609d7c97e47cab20c1a4a083",
             "idMemberCreator":"5cb6f893cbbf150ce6e1afe1",
@@ -784,14 +916,14 @@
             "closed":false,
             "coordinates":null,
             "creationMethod":null,
-            "dateLastActivity":"2021-05-13T17:34:21.576Z",
+            "dateLastActivity":"2021-05-15T09:06:42.843Z",
             "desc":"",
             "descData":null,
             "dueReminder":null,
             "idBoard":"609d629ab9909d0518ac2b7c",
             "idLabels":[
-                "609d629ad41eeff1fa014a78",
-                "609d631d956fe0538bc5e8b8"
+                "609d631d956fe0538bc5e8b8",
+                "609d629ad41eeff1fa014a74"
             ],
             "idList":"609d62c8fb07af410ac809c6",
             "idMembersVoted":[
@@ -801,7 +933,7 @@
             "idAttachmentCover":null,
             "locationName":null,
             "manualCoverAttachment":false,
-            "name":"installer.py",
+            "name":"installer.cxx",
             "pos":65535,
             "shortLink":"dL8dtZM5",
             "isTemplate":false,
@@ -839,16 +971,16 @@
             ],
             "labels":[
                 {
-                    "id":"609d629ad41eeff1fa014a78",
-                    "idBoard":"609d629ab9909d0518ac2b7c",
-                    "name":".py",
-                    "color":"blue"
-                },
-                {
                     "id":"609d631d956fe0538bc5e8b8",
                     "idBoard":"609d629ab9909d0518ac2b7c",
                     "name":"Installer",
                     "color":"black"
+                },
+                {
+                    "id":"609d629ad41eeff1fa014a74",
+                    "idBoard":"609d629ab9909d0518ac2b7c",
+                    "name":".cxx",
+                    "color":"orange"
                 }
             ],
             "limits":{
@@ -877,7 +1009,7 @@
             "shortUrl":"https://trello.com/c/dL8dtZM5",
             "start":null,
             "subscribed":false,
-            "url":"https://trello.com/c/dL8dtZM5/1-installerpy",
+            "url":"https://trello.com/c/dL8dtZM5/1-installercxx",
             "cover":{
                 "idAttachment":null,
                 "color":null,
@@ -1124,10 +1256,10 @@
             "id":"609d62e6588cce3cf229f24a",
             "address":null,
             "checkItemStates":null,
-            "closed":false,
+            "closed":true,
             "coordinates":null,
             "creationMethod":null,
-            "dateLastActivity":"2021-05-13T17:33:48.757Z",
+            "dateLastActivity":"2021-05-15T09:06:31.121Z",
             "desc":"",
             "descData":null,
             "dueReminder":null,
@@ -1689,12 +1821,6 @@
             "color":"orange"
         },
         {
-            "id":"609d629ad41eeff1fa014a78",
-            "idBoard":"609d629ab9909d0518ac2b7c",
-            "name":".py",
-            "color":"blue"
-        },
-        {
             "id":"609d629ad41eeff1fa014a6e",
             "idBoard":"609d629ab9909d0518ac2b7c",
             "name":".sh",
@@ -1705,6 +1831,12 @@
             "idBoard":"609d629ab9909d0518ac2b7c",
             "name":".json",
             "color":"yellow"
+        },
+        {
+            "id":"609d629ad41eeff1fa014a78",
+            "idBoard":"609d629ab9909d0518ac2b7c",
+            "name":".py",
+            "color":"blue"
         },
         {
             "id":"609d631d956fe0538bc5e8b8",
