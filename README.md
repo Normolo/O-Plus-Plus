@@ -3,6 +3,7 @@
 2. Wait a bit while the program boots
 3. Enter `install`
 4. You now have O++!
+If you experience any errors within installation, check [It's status page](https://ojaveplusplus.statuspage.io).
 
 ```diff
 - Before installation
