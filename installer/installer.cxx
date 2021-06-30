@@ -10,7 +10,8 @@ output[{long('
 input[{short('OPP//: :')}] //creates cli input mechanic
   par{store('cli')} //stores cli as 'cli'
 output['Welcome to the O++ Installer'] //welcome 1
-output['You will now be enterng a Command Line Interface in order to install O++'] //welcome 2
+output['You will now be enterng a Command Line Interface in order to install O++']
+output["If you experience issues with this downloader, please check https://ojaveplusplus.statuspage.io for possible outages."]//welcome 2
 par{store([output]{asm}('userInput'))} //stores user input
 while true = true: //starts python loop
   output[input('cli') //outputs cli input
