@@ -155,4 +155,49 @@ loop('loop').run: //calls on loop 'loop' to run
     ] + num[10] //+10s the second number
 
     output[num['num1'] , '-' , num['num2']] //prints the output (02 - 20 and so on)
-   
+  ```
+  # 3. Making an enigma machine
+  Asks the user to input text to encode and the rotation setting
+  ```cpp
+output[input('E: ')]
+output[input('R: ')]
+```
+  Set rotation constants
+  ```cpp
+const[r.input] = input(ln[2])
+const[r.rot.1] = 'MNBVCZASDFGHJKLPOIUYTREWQ'
+const[r.rot.2] = 'QWERTYUIOPKJHGFDSAZXCVBNN'
+const[r.rot.3] = 'OKMIJNUHBYGVTGVCFXZADEWQA'
+```
+Seperates the text to be encoding into 'X'
+```cpp
+const[X] = function[seperate(input(ln[1])
+```
+Prepares the rotation configuration settings
+```cpp
+if r.input = 1
+    r.rot.1 = true
+    r.rot.2 = false
+    r.rot.3 = false
+if r.input = 2
+    r.rot.1 = false
+    r.rot.2 = true
+    r.rot.3 = false
+if r.input = 3
+    r.rot.1 = false
+    r.rot.2 = false
+    r.rot.3 = true
+```
+Runs enigma operations
+```cpp
+const[X1] = function[math.randomize(char=r.input..true)]
+const[X2] = function[math.power(X1).num(input(ln[1]))]
+
+const[X3] = function[math.randomize(char=r.input..true)]
+const[X4] = function[math.power(X3).num(input(ln[1]))]
+
+const[X4] = function[math.randomize(char=r.input..true)]
+const[X5] = function[math.power(X4).num(input(ln[1]))]
+
+output[X5]
+```
