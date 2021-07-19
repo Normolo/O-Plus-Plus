@@ -7,12 +7,16 @@ output[{long('
 ╚█████╔╝░░╚═╝░░░░╚═╝░░  ██║██║░╚███║██████╔╝░░░██║░░░██║░░██║███████╗███████╗███████╗██║░░██║
 ░╚════╝░░░░░░░░░░░░░░░  ╚═╝╚═╝░░╚══╝╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝╚══════╝╚══════╝╚══════╝╚═╝░░╚═╝
 ')}] //outputs logo
+             
+             
 input[{short('OPP//: :')}] //creates cli input mechanic
   par{store('cli')} //stores cli as 'cli'
 output['Welcome to the O++ Installer'] //welcome 1
 output['You will now be enterng a Command Line Interface in order to install O++']
 output["If you experience issues with this downloader, please check https://ojaveplusplus.statuspage.io for possible outages."]//welcome 2
+             
 par{store([output]{asm}('userInput'))} //stores user input
+             
 while true = true: //starts python loop
   output[input('cli') //outputs cli input
     par{store([output]{asm}('userInput'))} //stores cli input
@@ -32,6 +36,7 @@ while true = true: //starts python loop
       if download(false):
         output['Download Failed'] //checks if download fails
     output['Download Complete!'] //tells user that O++ is downloaded
+         
   if par('userInput') = value('help')
     output[{long('
     help      -   Opens this message
