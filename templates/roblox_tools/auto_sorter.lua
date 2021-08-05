@@ -13,6 +13,6 @@ if toolbox.item.new(added):
             del[script.lua]
         if SSTGSearch = true:
             if SSSearch = true:
-                output['Script must be sorted manually due to multile error_code']
+                output['Script must be sorted manually due to multiple error_code']
 
 opp.conclude.script(0)
