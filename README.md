@@ -1,4 +1,7 @@
-# Installation
+# O++
+## About
+Ojave Plus Plus is a side project I have been working on where I intend to make a python-C++ hybrid language where learning is much easier compared to other languages.
+## Installation
 1. Download and execute `installer.py`
 2. Wait a bit while the program boots
 3. Enter `install`
